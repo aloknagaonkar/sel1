@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8664" started-at="2018-10-14T05:15:50Z" finished-at="2018-10-14T05:15:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8664" started-at="2018-10-14T05:15:50Z" finished-at="2018-10-14T05:15:59Z">
+      <class name="addressbooktest.NewTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:addressbooktest.NewTest@5c7fa833]" name="launch" is-config="true" duration-ms="4695" started-at="2018-10-14T05:15:50Z" finished-at="2018-10-14T05:15:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="Addressbook()[pri:0, instance:addressbooktest.NewTest@5c7fa833]" name="Addressbook" duration-ms="1785" started-at="2018-10-14T05:15:55Z" finished-at="2018-10-14T05:15:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addressbook -->
+        <test-method status="PASS" signature="close()[pri:0, instance:addressbooktest.NewTest@5c7fa833]" name="close" is-config="true" duration-ms="2161" started-at="2018-10-14T05:15:57Z" finished-at="2018-10-14T05:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- addressbooktest.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
