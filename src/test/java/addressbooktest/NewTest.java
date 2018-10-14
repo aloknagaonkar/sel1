@@ -18,7 +18,7 @@ public class NewTest {
 	
 	@BeforeClass
 	public void launch() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Machine\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://192.168.56.101:8082/addressbook/");
